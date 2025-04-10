@@ -26,9 +26,46 @@ Moreover, **Hybrid LSLU**, incorporates **Tikhonov regularization** in a computa
 
 ## Installation
 
-1. Clone this repository:
+1. To clone this repository:
 
    ```bash
    git clone https://github.com/yourusername/LSLU.git
    cd LSLU
+   
+### Software language
+
+       MATLAB 9.14 (R2023a)
+       For those without access to MATLAB, Octave provides an alternative platform.  
+       Note that these codes have not been tested in Octave. 
+       
+### Dependencies
+
+To run the toy example, you will need the following MATLAB toolboxes:
+
+    "IR tools: A MATLAB Package of Iterative Regularization"
+    by Silvia Gazzola, Per Christian Hansen and James G. Nagy
+    https://github.com/jnagy1/IRtools.git
+
+Make sure to download this toolbox, place the files in your MATLAB path, and call addpath as needed.
+
+## Contributors
+        Ariana N. Brown, 
+        Department of Mathematics, Emory University
+
+        Julianne Chung, 
+        Department of Mathematics, Emory University
+        
+        James G. Nagy, 
+        Department of Mathematics, Emory University
+      
+        Malena Sabaté Landman, 
+        Mathematical Institute, University of Oxford
+	
+## Licensing
+
+If you use this codes, you *must* cite the original authors:
+
+       [1] Brown et al. "Inner Product Free Krylov Methods for Large-Scale Inverse Problems". 2025.
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
